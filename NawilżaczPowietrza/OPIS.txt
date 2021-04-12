@@ -1,0 +1,9 @@
+--OPIS DZIAŁANIA BRAMY WJAZDOWEJ---
+Schemat w folderze ScreenShots
+
+Dla  zapewnienia  w  pomieszczeniu  odpowiednich  warunków  klimatycznych  (temperatury  i wilgotności)  do  nagrzewania  zastosowano  grzejnik  elektryczny,
+a  do  nawilżania  nawilżacz  .  Przy wilgotności<20%  nawilżacz  powinien  działać,  natomiast  grzejnik  powinien  wydzielać  moc  cieplną 10KW  przy temp.<10  oC, 
+8KW  przy  temp.=10-20  oC,  2KW  przy  temp.>20  oC.  Natomiast  przy wilgotności  >20%  nawilżacz  powinien  być  włączony  tylko  przy    temp.>20  oC  przy  
+równoczesnym wyłączeniu  grzejnika.  Przy  niższych  temp.  nawilżacz  powinien  bycwyłączony  a  włączony  grzejnik wydzielający moc cieplna 8KW przy temp.<10 oC,  2KW przy temp.=10-20 oC.
+
+Wszystkie warunki zostały zaimplementowane wyłącznie funkcjami logicznymi

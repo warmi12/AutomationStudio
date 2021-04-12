@@ -1,0 +1,7 @@
+VAR
+	
+	Mechanizm : ARRAY[0..1] OF SystemTyp;
+	ZegarTON : ARRAY[0..1] OF TON;
+	ZegarTOF : ARRAY[0..1] OF TOF;
+END_VAR
+

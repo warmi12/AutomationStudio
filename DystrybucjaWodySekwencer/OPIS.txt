@@ -1,0 +1,12 @@
+---OPIS SYSTEMU DYSTRYBUCJI CIECZY---
+Schemat opisywanego systemu znajduje się w katalogu ScreenShots
+
+System oczekuje na uruchomienie za pomocą przycisku diStart i przechodzi w stan rozruchu  pod warunkiem, że styki stycznika doPompa nie są zbyt gorące –nieaktywny czujnik diTermik.
+Zadaniem systemu w stanie rozruchu jest doprowadzić do minimalnego przepływu cieczy – aktywny czujnik diPrzeplywMin i minimalnego ciśnienia –aktywny czujnik diCisnienieMin, 
+po czym system przechodzi w stan normalnego działania. Normalne zatrzymanie systemu następuje po wciśnięciu przycisku diStop, po czym system przechodzi w stan wybiegu,
+w którym ciśnienie i przepływ cieczy powinny spaść  poniżej  wartości  zadanych – nieaktywne  czujniki  diCisnienieMin  i  diPrzeplywMin. System przechodzi w stan awarii gdy:
+- czujnik diTermik będzie aktywny (zbyt gorące styki stycznika)
+- czujnik diPrzeplywMin będzie nieaktywny (suchobieg)
+- czujnik diCisnienieMin będzie nieaktywny (zbyt niskie ciśnienie)
+
+W projekcie zastosowane są różne typy czujników (NC/NO)

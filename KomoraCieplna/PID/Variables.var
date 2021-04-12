@@ -1,0 +1,23 @@
+VAR
+	cPID : ARRAY[0..1] OF MTBasicsPID; (* Deklaracja funkcji algorymtu PID *)
+	SampleTON : ARRAY[0..10] OF TON;
+	Samples : ARRAY[0..1] OF REAL;
+	PvMax : ARRAY[0..2] OF REAL;
+	
+	k : INT:=2000; (* k i tol mozna dac do cpidpar *)
+	TOL : REAL:=1;
+	
+	l : INT:=180;
+	PB : INT:=100;
+	
+	timeTMP : REAL;
+	f:BOOL;
+	i : INT:=0;
+	sampleCounter : INT:=0;
+	
+END_VAR
+
+VAR RETAIN
+	cPIDPar : ARRAY[0..1] OF cPIDParTyp; (* Deklatacja parametrów PID *)
+	  
+END_VAR

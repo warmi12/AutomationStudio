@@ -1,0 +1,9 @@
+--KOMORA CIEPLNA OPIS---
+
+Program dokonuje sterowania symulowaną komorą cieplną z biblioteki MTBasicsPT2. Głównym zadaniem systemu jest
+ustawienie temperatury w komorze w zależności od rządania użytkownika. Kontroli dokonać można za pomocą dwóch algorytmów 
+(dwustawny oraz PID).Dodatkową opcją jest strojenie algorytmu PID metodą przekaźnikową. ).Dodatkową funkcjonalnością 
+systemu jest wizualizacja, dzieki której możemy regulować zadaną wartość, zobaczyć aktualną wartość temperatury oraz zobaczyć z jaką mocą działa grzałka.
+Ostatnim elementem układanki są wskaźniki jakości, które pomagają w ocenie działania algorytmu PID np. przy jego strojeniu.
+Główny program komunikuje się z innymi podprogramami (algorytm PID, dwustawny) zmiennymi globalnymi.
+

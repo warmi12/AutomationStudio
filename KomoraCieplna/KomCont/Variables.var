@@ -1,0 +1,15 @@
+VAR
+	Komora : ARRAY[0..1] OF KomoraTyp; (* Struktura obiektu sterowania *)
+	sKomora : ARRAY[0..1] OF MTBasicsPT2; (* Struktura modelu obiektu PT2 *)
+	Operator : ARRAY[0..1] OF OperatorTyp; (* Struktura obs³ugi obiektu sterowania *)
+	Tryb : ARRAY[0..1] OF ModeTyp; (* Struktura algorytmów sterowania *)
+	Delay : ARRAY[0..10] OF TON; (* zegarki *)
+	LiczMinMax : ARRAY[0..10] OF LCRMinMax; (* Funkcja liczenia min i max *)
+	fTempOnOff : BOOL; (* flaga do wyznaczenia wykresuy PU *)
+	fCzasStartStop : BOOL; (* flaga pomiaru czasu - start/stop zegara*)
+END_VAR
+
+VAR RETAIN
+	sKomoraPar : ARRAY[0..1] OF sKomoraParTyp; (* Parametry obiektu do wpisywania z GUI *)
+	  
+END_VAR

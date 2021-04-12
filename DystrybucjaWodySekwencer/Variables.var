@@ -1,0 +1,9 @@
+VAR
+	i : INT;
+	Sterowanie : SterowanieTyp;
+	DystrybucjaCieczy : DystrybucjaCieczyTyp;
+	ZegarTON : ARRAY[0..10] OF TON;
+END_VAR
+VAR RETAIN
+	DystrybucjaCieczyPar : SystemParTyp; (*Parametry podtrzymywane w pamiêci flash lub bateryjnie*)
+END_VAR

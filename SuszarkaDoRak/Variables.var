@@ -1,0 +1,10 @@
+VAR
+	Lazienka : ARRAY[0..1] OF BathRoomTyp;
+	ZegarTON : ARRAY[0..9] OF TON; (*Deklaracja funkcji zegara TON*)
+	ZegarTOF : ARRAY[0..9] OF TOF; (*Deklaracja funkcji zegara TOF*)(*on siê uzbraja jak dajemy 1 i jak damy zaero to odlicza*)
+	
+END_VAR
+
+VAR RETAIN
+	LazienkaPar : ARRAY[0..1] OF BathRoomParTyp;
+END_VAR

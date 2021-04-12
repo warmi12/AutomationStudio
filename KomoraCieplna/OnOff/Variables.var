@@ -1,0 +1,14 @@
+VAR
+	cOnOff : ARRAY[0..1] OF cOnOffTyp; (* Struktura algorytmu OnOff *)
+	DelayTON : ARRAY[0..10] OF TON; (* zegarki *)
+	LiczMinMax : ARRAY[0..10] OF LCRMinMax; (* Funkcja liczenia min i max *)
+	AutoTuning : AutoTuningTyp;
+
+	
+END_VAR
+
+
+VAR RETAIN
+	cOnOffPar : ARRAY[0..1] OF cOnOffParTyp; (* Struktura parametrów algorytmu OnOff *)
+	  
+END_VAR

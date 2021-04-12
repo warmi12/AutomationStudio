@@ -1,0 +1,9 @@
+--OPIS DZIAŁANIA BRAMY WJAZDOWEJ---
+Schemat w folderze ScreenShots
+
+Przyciski doOpenGate i doCloseGate inicjują ruch bramy. Ruch bramy kończy się po osiągnięciu wyłączników  krańcowych  diGateOpened  lub  diGateClosed. 
+Również  wyłącznik  bezpieczeństwa diEStop  może  zatrzymać  ruch  bramy  w  dowolnym  kierunku. Zatrzymanie  bramy  może również nastąpić przy  aktywacji 
+czujnika  diSafetySensor  tj.  przy  wykryciu  przeszkody oraz  wykrycia przegrzania  silnika  diTemperatura.
+W  trakcie  ruchu  bramy  lampa  doLampapulsuje  z  określoną częstotliwością.
+Czujnik temperatury, czujnik bezpieczeństwa, czujniki krańcowe oraz przycisk diEStop są typu NC w celu zapobiegnięcia wypadku na skutek nieprawidłwego działania
+któregoś z nich.

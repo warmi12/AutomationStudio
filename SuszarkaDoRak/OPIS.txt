@@ -1,0 +1,8 @@
+--OPIS DZIAŁANIA SUSZARKI DO RĄK---
+
+Układ czeka aż czujnik diHand zostanie uaktywniony, po czym odlicza okrośloną ilość czasu (ustawiona przez operatora) 
+i załącza dmuchawę. Po zabraniu rąk spod urządzenia (diHand - nieaktywny) system odczekuje wybraną ilość czasu i wyłącza je.
+Opóźnienie w załączaniu oraz wyłączaniu układu ma na celu wyeliminowanie przypadkowego wyłącznia lub włączenia urządzenia gdy 
+czunki zmieni stan na przeciwny. Kiedy czujnik wykrywający za gorące styki stycznika zostanie uaktywniony układ zostanie automatycznie wyłączony
+Dodatkowo system zlicza czas pracy oraz ilość załączeń układu
+

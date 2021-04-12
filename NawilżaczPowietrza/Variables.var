@@ -1,0 +1,5 @@
+VAR
+	Hala : HeaterTyp;
+	Operator : SystemTyp;
+	  
+END_VAR
